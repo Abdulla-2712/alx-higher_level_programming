@@ -4,5 +4,5 @@ def islower(c):
     str2 = "is upper"
     if ord(c) >= 97 and ord(c) <= 122:
         print("{} {}".format(c, str1))
-    if ord(c) >= 65 and ord(c) <= 90:
+    else:
         print("{} {}".format(c, str2))
