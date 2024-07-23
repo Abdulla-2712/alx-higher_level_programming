@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" This class defines the Square"""
+"""T"""
 
 
 class Square:
