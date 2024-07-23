@@ -5,9 +5,9 @@
 class Square:
     """ Square class """
     def __init__(self, size = 0):
-        if int(size).isdigit():
-            self.__size = size
-        else:
+        if not isinstance(size, int):
             raise TypeError
-        if size < 0:
+        elif size < 0:
             raise ValueError
+        else:
+            self.__size = size
