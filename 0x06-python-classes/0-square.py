@@ -3,6 +3,5 @@
 
 
 class Square:
-    """I went to the barber Yesterday
-    """
+    """I went to the barber Yesterday"""
     pass
